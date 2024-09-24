@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header Text -->
+            <TextView
+                android:id="@+id/headerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="You can always count on us during your journey"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <!-- Images Section -->
+            <LinearLayout
+                android:id="@+id/imagesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="16dp">
+
+                <!-- Image 1 -->
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/nec1"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Image 2 -->
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/nec2"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <!-- About Section -->
+            <TextView
+                android:id="@+id/partnersText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to NEC, a prestigious institution located in the heart of Narasaraopeta. Established in 1967, we are committed to providing quality education and fostering a nurturing environment for academic excellence"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp" />
+
+            <!-- History Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="~~~History~~~"
+                android:textSize="23sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Since its inception, NEC has grown from a small campus to a thriving educational community. Over the past 15 years, we have been recognized for our innovative programs, state-of-the-art facilities, and exceptional faculty."
+                android:textSize="19sp"/>
+
+            <!-- Mission and Vision Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="~~~Mission and Vision~~~"
+                android:textSize="23sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our mission is to empower students with knowledge, skills, and values to lead and succeed in a rapidly changing world. We envision a future where our graduates make significant contributions to society and drive positive change."
+                android:textSize="19sp"/>
+
+            <!-- Achievements Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="~~~Achievements and Recognitions~~~"
+                android:textSize="23sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEC is proud to be ranked among the top institutions in the region, known for its excellence in research and education. Our students and faculty have won numerous awards and accolades at national and international levels."
+                android:textSize="19sp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

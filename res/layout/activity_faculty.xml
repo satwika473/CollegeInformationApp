@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Faculty"
+    android:background="@color/white1">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:hint="Search here with FacultyId" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/facbg"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here is the faculty information"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 210"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 211"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 212"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 213"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 214"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 215"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 216"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="FacultyId 217"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 218"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bgreen"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FacultyId 220"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bg_green" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

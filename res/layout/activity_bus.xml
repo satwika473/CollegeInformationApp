@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bus"
+    android:background="@color/white1">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:hint="Search here with BusNumber" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/busbg"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here are the buses information"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 2"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 3"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 4"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 5"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 6"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 7"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Busno 8"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bg_green"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 9"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bgreen"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Busno 10"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:backgroundTint="@color/bg_green" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
